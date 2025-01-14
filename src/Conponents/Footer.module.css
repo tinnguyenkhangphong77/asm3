@@ -1,0 +1,31 @@
+.footer {
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr 1fr 250px;
+  height: 180px;
+}
+.list {
+  font-size: 12px;
+  list-style: none;
+  font-style: italic;
+}
+
+.list li a {
+  text-decoration: none;
+  color: rgb(129, 129, 129);
+}
+.list :hover {
+  cursor: pointer;
+  font-size: 15px;
+  color: red;
+}
+.list li {
+  margin: 5px;
+  text-decoration: none;
+}
+.content {
+  font-weight: 200;
+  margin-left: 35px;
+  margin-top: 25px;
+}

@@ -1,0 +1,74 @@
+.product-catagory {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 5px;
+}
+.productsContainer {
+  display: flex;
+  flex-wrap: wrap; /* Cho phép các sản phẩm xuống dòng khi không đủ không gian */
+  /* justify-content: space-between; */
+}
+
+.product {
+  width: calc(
+    33% - 10px
+  ); /* Sử dụng calc để tính đúng kích thước của mỗi cột và áp dụng margin */
+  margin: 0 5px 10px 0; /* Thay đổi margin nếu cần thiết */
+}
+
+.img-product {
+  width: 100%; /* Đảm bảo hình ảnh điền vào kích thước của phần tử cha */
+  height: auto;
+  filter: brightness(90%);
+  cursor: pointer;
+}
+
+.img-product:hover {
+  filter: brightness(100%);
+}
+
+.product p,
+.product h6 {
+  text-align: center;
+}
+
+.product p {
+  color: rgb(171, 179, 181);
+}
+.product-catagory a {
+  text-decoration: none;
+  color: black;
+}
+.product-catagory ul {
+  list-style-type: none;
+}
+.catagory h4 {
+  font-size: 20px;
+}
+.catagory li {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.banner-shop {
+  background-color: rgb(246, 249, 246);
+  height: 300px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px 10px 65px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 200px 800px 100px;
+  gap: 50px;
+  margin: 10px 0 10px 30px;
+}
+.header select {
+  width: 100px;
+  /* margin-left: 100px; */
+}
+.header input {
+  width: 200px;
+}

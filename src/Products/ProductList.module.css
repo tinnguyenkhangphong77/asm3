@@ -1,0 +1,28 @@
+.img-product {
+  width: 250px;
+  height: auto;
+  filter: brightness(90%);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  cursor: pointer;
+}
+
+.img-product:hover {
+  filter: brightness(100%);
+}
+
+.productsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 30px;
+}
+.productsContainer p {
+  margin-top: 5px;
+}
+.product {
+  text-align: center;
+  width: 250px;
+}
+.product h6 {
+  margin-top: 10px;
+}

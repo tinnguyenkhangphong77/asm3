@@ -1,0 +1,59 @@
+.thongtinsp {
+  display: grid;
+  grid-template-columns: 540px 1fr;
+}
+.imgphu {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5px;
+}
+.imgchinh img {
+  width: 400px;
+  height: auto;
+}
+.imgdetail {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 15px;
+  margin: 10px;
+}
+.icon {
+  height: 20px;
+}
+.dathang {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(229, 232, 235);
+  height: 30px;
+  width: 200px;
+}
+
+.dathang p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.dathang span {
+  cursor: pointer;
+  font-size: 30px;
+  margin: 0;
+}
+.btn p {
+  font-size: 10px;
+  color: white;
+}
+.btn {
+  height: 30px;
+  background-color: gray;
+  border: none;
+}
+.thongtinsanphamlienquan {
+  display: flex;
+  gap: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.related a {
+  text-decoration: none;
+}

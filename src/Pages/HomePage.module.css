@@ -1,0 +1,77 @@
+.bannerContainer {
+  position: relative;
+  overflow: hidden;
+}
+
+.bannerText {
+  position: absolute;
+  transform: translate(30%, 80%);
+  color: #131111;
+  width: 250px;
+  margin-left: 50px;
+}
+
+.bannerText p {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.bannerText h3 {
+  margin: 10px 0;
+  font-size: 2rem;
+}
+
+.banner img {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin-left: 80px;
+}
+.img-product {
+  width: 250px;
+  height: auto;
+  filter: brightness(90%);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.img-product:hover {
+  filter: brightness(100%);
+}
+
+.product {
+  text-align: center;
+  width: 250px;
+}
+
+.abc {
+  background-color: rgb(237, 239, 241);
+  height: 200px;
+  text-align: center;
+}
+
+.imgCatagory {
+  margin: 15px;
+}
+.danhmucsp {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.danhmucsp p,
+.danhmucsp h3 {
+  text-align: center;
+}
+.danhmucsp p,
+.products p {
+  color: rgb(171, 179, 181);
+}
+.products {
+  margin-left: 80px;
+}
+/* .products p,
+.products h5 {
+  margin-left: 25px;
+} */
+.row {
+  margin-top: 50px;
+}
